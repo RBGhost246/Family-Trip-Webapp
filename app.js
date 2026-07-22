@@ -116,8 +116,6 @@
     byId("appTitle").textContent=state.event.title||t("title"); byId("appSubtitle").textContent=state.event.subtitle||t("subtitle");
     byId("participantCount").textContent=state.participants.length; byId("openTasks").textContent=state.tasks.filter(function(x){return !x.done;}).length;
     byId("unassignedItems").textContent=state.bring.filter(function(x){return !x.owner;}).length; byId("rideRequests").textContent=state.cars.filter(function(x){return x.needRide;}).length;
-    byId("coordinatorSelect").innerHTML=peopleOptions(state.activeCoordinator,false); byId("coordinatorSelect").disabled=!isLocalEditor;
-    byId("handoverNote").textContent=t("currentCoordinator")+": "+(state.activeCoordinator||t("noOwner"));
     renderSchedule(); renderMeals(); renderTasks(); renderBring(); renderCars(); renderHome();
     if(storageWasInvalid){showMessage(t("dataRecovered"));storageWasInvalid=false;}
   }
@@ -233,7 +231,6 @@
     const move=e.target.closest("[data-person-move]");if(move){const i=Number(move.dataset.index),j=i+Number(move.dataset.personMove);if(j>=0&&j<state.participants.length)mutate(function(){const p=state.participants.splice(i,1)[0];state.participants.splice(j,0,p);});openForm("participants");}
   });
   byId("formContainer").addEventListener("change",function(e){if(e.target.classList.contains("participant-name")){const i=Number(e.target.dataset.index),old=state.participants[i],n=e.target.value.trim();if(n&&n!==old)mutate(function(){state.participants[i]=n;if(state.activeCoordinator===old)state.activeCoordinator=n;["schedule","meals","tasks","bring"].forEach(function(k){state[k].forEach(function(x){if(x.owner===old)x.owner=n;});});state.cars.forEach(function(c){if(c.driver===old)c.driver=n;c.passengers=c.passengers.map(function(p){return p===old?n:p;});});});}});
-  byId("handoverBtn").addEventListener("click",function(){mutate(function(){state.activeCoordinator=byId("coordinatorSelect").value;state.handoverAt=new Date().toISOString();});});
   byId("closeModal").addEventListener("click",function(){byId("modal").classList.remove("open");});byId("modal").addEventListener("click",function(e){if(e.target===this)this.classList.remove("open");});
   byId("langSelect").addEventListener("change",function(e){lang=e.target.value;setStatic();});["dayFilter","mealDayFilter","taskFilter","bringFilter"].forEach(function(id){byId(id).addEventListener("change",render);});
   byId("publishExportBtn").addEventListener("click",exportWebsite);byId("backupExportBtn").addEventListener("click",exportBackup);byId("backupImportBtn").addEventListener("click",function(){byId("backupFile").click();});byId("backupFile").addEventListener("change",function(){importBackup(this.files[0]);});
