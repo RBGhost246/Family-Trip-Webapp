@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#2f6f68">
+<title>מתכנן סוף שבוע משפחתי</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app">
+<header><div class="topbar">
+  <div class="brand"><h1 id="appTitle"></h1><p id="appSubtitle"></p></div>
+  <div class="controls">
+    <select id="roleSelect" aria-label="Role"></select>
+    <select id="langSelect" aria-label="Language"><option value="he">עברית</option><option value="en">English</option><option value="ru">Русский</option></select>
+  </div>
+</div></header>
+
+<main>
+<section id="homeView" class="view active">
+  <div class="notice" id="modeNotice"></div>
+  <div class="card" style="margin-bottom:14px">
+    <div class="section-head"><div><h2 data-k="activeCoordinator"></h2><p data-k="handoverSub"></p></div></div>
+    <div class="coordinator">
+      <label><span data-k="currentCoordinator"></span><select id="coordinatorSelect"></select></label>
+      <button id="handoverBtn" class="btn primary organizer-only" data-k="handover"></button>
+    </div>
+    <div class="handover-note" id="handoverNote"></div>
+  </div>
+
+  <div class="grid metrics">
+    <div class="card metric"><div class="label" data-k="participants"></div><div class="value" id="participantCount"></div><div class="sub" data-k="confirmed"></div></div>
+    <div class="card metric"><div class="label" data-k="openTasks"></div><div class="value" id="openTasks"></div><div class="sub" data-k="needAttention"></div></div>
+    <div class="card metric"><div class="label" data-k="unassignedItems"></div><div class="value" id="unassignedItems"></div><div class="sub" data-k="bringList"></div></div>
+    <div class="card metric"><div class="label" data-k="rideRequests"></div><div class="value" id="rideRequests"></div><div class="sub" data-k="transport"></div></div>
+  </div>
+
+  <div class="card" style="margin-bottom:14px"><div class="section-head"><div><h2 data-k="nextActivities"></h2><p data-k="nextActivitiesSub"></p></div></div><div id="nextActivities" class="list"></div></div>
+  <div class="card"><div class="section-head"><div><h2 data-k="attention"></h2><p data-k="attentionSub"></p></div></div><div id="attentionList" class="list"></div></div>
+</section>
+
+<section id="scheduleView" class="view">
+  <div class="section-head"><div><h2 data-k="schedule"></h2><p data-k="scheduleSub"></p></div><button class="btn primary organizer-only" data-open="schedule" data-k="add"></button></div>
+  <div class="filters"><select id="dayFilter"></select></div><div id="scheduleList" class="list"></div>
+</section>
+
+<section id="mealsView" class="view">
+  <div class="section-head"><div><h2 data-k="meals"></h2><p data-k="mealsSub"></p></div><button class="btn primary organizer-only" data-open="meal" data-k="add"></button></div>
+  <div class="filters"><select id="mealDayFilter"></select></div><div id="mealsList" class="meal-grid"></div>
+</section>
+
+<section id="tasksView" class="view">
+  <div class="section-head"><div><h2 data-k="tasks"></h2><p data-k="tasksSub"></p></div><button class="btn primary organizer-only" data-open="task" data-k="add"></button></div>
+  <div class="filters"><select id="taskFilter"></select></div><div id="taskList" class="list"></div>
+</section>
+
+<section id="bringView" class="view">
+  <div class="section-head"><div><h2 data-k="bring"></h2><p data-k="bringSub"></p></div><button class="btn primary" data-open="bring" data-k="add"></button></div>
+  <div class="filters"><select id="bringFilter"></select></div><div id="bringListEl" class="list"></div>
+</section>
+
+<section id="carsView" class="view">
+  <div class="section-head"><div><h2 data-k="cars"></h2><p data-k="carsSub"></p></div><button class="btn primary" data-open="car" data-k="add"></button></div>
+  <div id="carsList" class="car-grid"></div>
+</section>
+</main>
+
+<nav class="tabs">
+<button class="tab active" data-view="home"><strong>⌂</strong><span data-k="home"></span></button>
+<button class="tab" data-view="schedule"><strong>◷</strong><span data-k="scheduleShort"></span></button>
+<button class="tab" data-view="meals"><strong>🍽</strong><span data-k="mealsShort"></span></button>
+<button class="tab" data-view="tasks"><strong>✓</strong><span data-k="tasksShort"></span></button>
+<button class="tab" data-view="bring"><strong>▣</strong><span data-k="bringShort"></span></button>
+<button class="tab" data-view="cars"><strong>🚗</strong><span data-k="carsShort"></span></button>
+</nav>
+</div>
+
+<div id="modal" class="modal"><div class="sheet"><div class="section-head"><h2 id="modalTitle"></h2><button id="closeModal" class="btn ghost">✕</button></div><div id="formContainer"></div></div></div>
+
+<script src="app.js"></script>
+</body></html>
+
