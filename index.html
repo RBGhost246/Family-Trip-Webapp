@@ -12,7 +12,6 @@
 <header><div class="topbar">
   <div class="brand"><h1 id="appTitle"></h1><p id="appSubtitle"></p></div>
   <div class="controls">
-    <select id="roleSelect" aria-label="Role"></select>
     <select id="langSelect" aria-label="Language"><option value="he">עברית</option><option value="en">English</option><option value="ru">Русский</option></select>
   </div>
 </div></header>
@@ -24,7 +23,7 @@
     <div class="section-head"><div><h2 data-k="activeCoordinator"></h2><p data-k="handoverSub"></p></div></div>
     <div class="coordinator">
       <label><span data-k="currentCoordinator"></span><select id="coordinatorSelect"></select></label>
-      <button id="handoverBtn" class="btn primary organizer-only" data-k="handover"></button>
+      <button id="handoverBtn" class="btn primary editor-only" data-k="saveCoordinator"></button>
     </div>
     <div class="handover-note" id="handoverNote"></div>
   </div>
@@ -38,30 +37,49 @@
 
   <div class="card" style="margin-bottom:14px"><div class="section-head"><div><h2 data-k="nextActivities"></h2><p data-k="nextActivitiesSub"></p></div></div><div id="nextActivities" class="list"></div></div>
   <div class="card"><div class="section-head"><div><h2 data-k="attention"></h2><p data-k="attentionSub"></p></div></div><div id="attentionList" class="list"></div></div>
+  <div id="organizerTools" class="card editor-only tools-card">
+    <div class="section-head"><div><h2 data-k="organizerTools"></h2><p data-k="localEditorHint"></p></div></div>
+    <div class="actions tools-actions">
+      <button class="btn primary" data-open="settings" data-k="eventSettings"></button>
+      <button class="btn" data-open="participants" data-k="manageParticipants"></button>
+      <button class="btn primary" id="publishExportBtn" data-k="exportWebsite"></button>
+      <button class="btn" id="backupExportBtn" data-k="exportBackup"></button>
+      <button class="btn" id="backupImportBtn" data-k="importBackup"></button>
+      <input id="backupFile" type="file" accept="application/json,.json" hidden>
+      <button class="btn" id="copySummaryBtn" data-k="copySummary"></button>
+      <button class="btn" id="shareSummaryBtn" data-k="shareSummary"></button>
+    </div>
+    <div id="toolMessage" class="tool-message" aria-live="polite"></div>
+  </div>
+  <div id="publicShare" class="card public-only tools-card">
+    <div class="section-head"><div><h2 data-k="shareSummary"></h2><p data-k="shareSummarySub"></p></div></div>
+    <div class="actions"><button class="btn" id="publicCopySummaryBtn" data-k="copySummary"></button><button class="btn primary" id="publicShareSummaryBtn" data-k="shareSummary"></button></div>
+    <div id="publicMessage" class="tool-message" aria-live="polite"></div>
+  </div>
 </section>
 
 <section id="scheduleView" class="view">
-  <div class="section-head"><div><h2 data-k="schedule"></h2><p data-k="scheduleSub"></p></div><button class="btn primary organizer-only" data-open="schedule" data-k="add"></button></div>
+  <div class="section-head"><div><h2 data-k="schedule"></h2><p data-k="scheduleSub"></p></div><button class="btn primary editor-only" data-open="schedule" data-k="add"></button></div>
   <div class="filters"><select id="dayFilter"></select></div><div id="scheduleList" class="list"></div>
 </section>
 
 <section id="mealsView" class="view">
-  <div class="section-head"><div><h2 data-k="meals"></h2><p data-k="mealsSub"></p></div><button class="btn primary organizer-only" data-open="meal" data-k="add"></button></div>
+  <div class="section-head"><div><h2 data-k="meals"></h2><p data-k="mealsSub"></p></div><button class="btn primary editor-only" data-open="meal" data-k="add"></button></div>
   <div class="filters"><select id="mealDayFilter"></select></div><div id="mealsList" class="meal-grid"></div>
 </section>
 
 <section id="tasksView" class="view">
-  <div class="section-head"><div><h2 data-k="tasks"></h2><p data-k="tasksSub"></p></div><button class="btn primary organizer-only" data-open="task" data-k="add"></button></div>
+  <div class="section-head"><div><h2 data-k="tasks"></h2><p data-k="tasksSub"></p></div><button class="btn primary editor-only" data-open="task" data-k="add"></button></div>
   <div class="filters"><select id="taskFilter"></select></div><div id="taskList" class="list"></div>
 </section>
 
 <section id="bringView" class="view">
-  <div class="section-head"><div><h2 data-k="bring"></h2><p data-k="bringSub"></p></div><button class="btn primary" data-open="bring" data-k="add"></button></div>
+  <div class="section-head"><div><h2 data-k="bring"></h2><p data-k="bringSub"></p></div><button class="btn primary editor-only" data-open="bring" data-k="add"></button></div>
   <div class="filters"><select id="bringFilter"></select></div><div id="bringListEl" class="list"></div>
 </section>
 
 <section id="carsView" class="view">
-  <div class="section-head"><div><h2 data-k="cars"></h2><p data-k="carsSub"></p></div><button class="btn primary" data-open="car" data-k="add"></button></div>
+  <div class="section-head"><div><h2 data-k="cars"></h2><p data-k="carsSub"></p></div><button class="btn primary editor-only" data-open="car" data-k="add"></button></div>
   <div id="carsList" class="car-grid"></div>
 </section>
 </main>
@@ -78,6 +96,6 @@
 
 <div id="modal" class="modal"><div class="sheet"><div class="section-head"><h2 id="modalTitle"></h2><button id="closeModal" class="btn ghost">✕</button></div><div id="formContainer"></div></div></div>
 
+<script src="published-data.js"></script>
 <script src="app.js"></script>
 </body></html>
-
