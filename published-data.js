@@ -56,7 +56,7 @@ window.PUBLISHED_EVENT_DATA = {
       "time": "18:30",
       "endTime": "19:30",
       "title": "ארוחת ערב",
-      "owner": "",
+      "owner": "בוריס",
       "status": "confirmed",
       "notes": ""
     },
@@ -86,7 +86,7 @@ window.PUBLISHED_EVENT_DATA = {
       "time": "10:00",
       "endTime": "11:00",
       "title": "ארוחת בוקר",
-      "owner": "",
+      "owner": "אולגה",
       "status": "confirmed",
       "notes": ""
     },
@@ -106,7 +106,7 @@ window.PUBLISHED_EVENT_DATA = {
       "time": "13:00",
       "endTime": "",
       "title": "ארוחת צהריים",
-      "owner": "",
+      "owner": "רוני",
       "status": "confirmed",
       "notes": ""
     },
@@ -116,7 +116,7 @@ window.PUBLISHED_EVENT_DATA = {
       "time": "18:30",
       "endTime": "",
       "title": "ארוחת ערב",
-      "owner": "",
+      "owner": "ויקה",
       "status": "confirmed",
       "notes": ""
     },
@@ -156,7 +156,7 @@ window.PUBLISHED_EVENT_DATA = {
       "time": "10:00",
       "endTime": "",
       "title": "ארוחת בוקר",
-      "owner": "",
+      "owner": "אלין",
       "status": "confirmed",
       "notes": ""
     },
@@ -261,7 +261,7 @@ window.PUBLISHED_EVENT_DATA = {
       "id": 1784883204409,
       "title": "שיבוץ תוכן",
       "category": "",
-      "owner": "",
+      "owner": "רוני",
       "deadline": "",
       "done": false
     },
@@ -402,6 +402,80 @@ window.PUBLISHED_EVENT_DATA = {
       "passengers": [
         "אביב",
         "זיו"
+      ]
+    }
+  ],
+  "rooms": [
+    {
+      "id": 1784884597276,
+      "name": "חדר זוגי 1",
+      "capacity": 2,
+      "occupants": [
+        "אולגה",
+        "בוריס"
+      ]
+    },
+    {
+      "id": 1784884605087,
+      "name": "חדר זוגי 2",
+      "capacity": 2,
+      "occupants": [
+        "אלין",
+        "אדי"
+      ]
+    },
+    {
+      "id": 1784884616362,
+      "name": "חדר זוגי 3",
+      "capacity": 2,
+      "occupants": [
+        "רוני",
+        "מישה"
+      ]
+    },
+    {
+      "id": 1784884624013,
+      "name": "חדר זוגי 4",
+      "capacity": 2,
+      "occupants": [
+        "דני",
+        "אביב"
+      ]
+    },
+    {
+      "id": 1784884633101,
+      "name": "חדר זוגי 5",
+      "capacity": 2,
+      "occupants": [
+        "יפעת",
+        "זיו"
+      ]
+    },
+    {
+      "id": 1784884640877,
+      "name": "חדר זוגי 6",
+      "capacity": 2,
+      "occupants": [
+        "ראיה"
+      ]
+    },
+    {
+      "id": 1784884651455,
+      "name": "חדר 3 מיטות (1)",
+      "capacity": 3,
+      "occupants": [
+        "ויקה",
+        "מריק",
+        "רחלי"
+      ]
+    },
+    {
+      "id": 1784884664844,
+      "name": "חדר 3 מיטות (2)",
+      "capacity": 3,
+      "occupants": [
+        "יוני",
+        "וובה"
       ]
     }
   ]
