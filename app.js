@@ -27,6 +27,9 @@
       title:"Семейные выходные на севере Израиля",subtitle:"С пятницы по воскресенье · Совместное планирование",home:"Главная",schedule:"Расписание",scheduleShort:"План",meals:"Еда и меню",mealsShort:"Еда",tasks:"Обязанности и задачи",tasksShort:"Задачи",bring:"Что взять",bringShort:"Взять",cars:"Прибытие и отъезд",carsShort:"Машины",participants:"Участники",confirmed:"подтверждено",openTasks:"Открытые задачи",needAttention:"требуют внимания",unassignedItems:"Без ответственного",bringList:"в списке вещей",rideRequests:"Нужен транспорт",transport:"транспорт",nextActivities:"Ближайшие мероприятия",nextActivitiesSub:"Что происходит и кто отвечает",attention:"Требует внимания",attentionSub:"Нерешённые вопросы",scheduleSub:"Дата, время, мероприятие, ответственный и заметки",mealsSub:"Приём пищи, блюда, количество и ответственный",tasksSub:"Кто готовит, приносит и организует",bringSub:"Оборудование, еда и общие вещи",carsSub:"Машины, места и поездки",add:"Добавить",edit:"Изменить",delete:"Удалить",save:"Сохранить",cancel:"Отмена",all:"Все",allDays:"Все дни",open:"Открытые",done:"Завершено",unassigned:"Без ответственного",ready:"Готово",confirmedStatus:"Подтверждено",proposed:"Предложено",inProgress:"В работе",completed:"Готово",notReady:"Не готово",responsible:"Назначено",needsRide:"Нужна поездка",arrival:"Прибытие",departure:"Отъезд",noOwner:"Без ответственного",nothingOpen:"Нерешённых вопросов нет",noPassengers:"Пассажиры не назначены",seats:"Вместимость пассажиров",dishes:"Блюда / детали",quantity:"Количество",notes:"Заметки",day:"Дата / день",startTime:"Начало",endTime:"Окончание",time:"Время",activity:"Название",owner:"Ответственный",status:"Статус",category:"Категория",item:"Предмет",meal:"Приём пищи",driver:"Водитель",type:"Тип",direction:"Поездка",origin:"Откуда",passengers:"Пассажиры",deadline:"Дата / срок",Friday:"Пятница",Saturday:"Суббота",Sunday:"Воскресенье",breakfast:"Завтрак",lunch:"Обед",dinner:"Ужин",snacks:"Закуски",localMode:"Локальная редактируемая версия",publicMode:"Версия только для чтения",activeCoordinator:"Текущий координатор",handoverSub:"Человек, который сейчас координирует поездку",currentCoordinator:"Координатор",saveCoordinator:"Сохранить координатора",organizerTools:"Инструменты организатора",localEditorHint:"Изменения автоматически сохраняются в этом браузере.",eventSettings:"Настройки события",manageParticipants:"Управление участниками",exportWebsite:"Экспорт для сайта",exportBackup:"Экспорт копии",importBackup:"Импорт копии",copySummary:"Копировать сводку WhatsApp",shareSummary:"Поделиться сводкой",shareSummarySub:"Скопировать или отправить краткую сводку.",eventTitle:"Название события",eventSubtitle:"Подзаголовок",startDate:"Дата начала",endDate:"Дата окончания",location:"Место",generalNotes:"Общие заметки",participantName:"Имя участника",addParticipant:"Добавить участника",moveUp:"Вверх",moveDown:"Вниз",remove:"Удалить",emptyParticipants:"Участников пока нет.",emptySchedule:"Нет мероприятий для этого вида.",emptyMeals:"Нет приёмов пищи для этого вида.",emptyTasks:"Нет задач для этого вида.",emptyBring:"Нет вещей для этого вида.",emptyCars:"Нет машин или поездок.",emptyPassengers:"Пассажиры не назначены.",deleteConfirm:"Удалить «{name}»? Это нельзя отменить.",removeParticipantConfirm:"Удалить «{name}»? Связанные назначения будут очищены.",invalidData:"Сохранённые или импортированные данные неверны. Текущая информация сохранена.",storageError:"Не удалось сохранить изменения в этом браузере.",requiredTitle:"Введите название или имя.",importConfirm:"Заменить всю текущую информацию этой копией?",imported:"Резервная копия импортирована.",exported:"Резервная копия скачана.",copied:"Сводка скопирована.",shareUnavailable:"Общий доступ не поддерживается. Сводка скопирована.",publicBlocked:"Версия только для чтения не может менять данные.",publishInstructions:"Файл published-data.js скачан.\n1. Замените старый файл в папке проекта.\n2. Сделайте Commit.\n3. Сделайте Push в GitHub.\n4. Обновите сайт GitHub Pages.",capacityWarning:"Слишком много пассажиров: {used} при {seats} местах.",duplicateWarning:"{name} назначен более чем на одну поездку ({direction}).",driverPassengerWarning:"Водитель также указан пассажиром.",notAssignedWarning:"Не назначены: {names}",dataRecovered:"Сохранённые данные повреждены, поэтому показаны безопасные данные по умолчанию. Повреждённое значение не перезаписано.",yes:"Да",no:"Нет"
     }
   };
+  Object.assign(I.en,{rooms:"Room assignments",roomsShort:"Rooms",roomsSub:"Rooms, capacity and participants",roomName:"Room name",roomCapacity:"Room capacity",occupants:"Participants",emptyRooms:"No rooms created yet.",emptyOccupants:"No participants assigned.",roomCapacityWarning:"Too many participants: {used} assigned for a capacity of {capacity}.",roomDuplicateWarning:"{name} is assigned to more than one room.",roomUnassignedWarning:"Not assigned to a room: {names}"});
+  Object.assign(I.he,{rooms:"שיבוץ חדרים",roomsShort:"חדרים",roomsSub:"חדרים, קיבולת ומשתתפים",roomName:"שם החדר",roomCapacity:"קיבולת החדר",occupants:"משתתפים",emptyRooms:"עדיין לא נוצרו חדרים.",emptyOccupants:"אין משתתפים משובצים.",roomCapacityWarning:"יותר מדי משתתפים: {used} משובצים לקיבולת של {capacity}.",roomDuplicateWarning:"{name} משובץ ליותר מחדר אחד.",roomUnassignedWarning:"ללא שיבוץ לחדר: {names}"});
+  Object.assign(I.ru,{rooms:"Распределение комнат",roomsShort:"Комнаты",roomsSub:"Комнаты, вместимость и участники",roomName:"Название комнаты",roomCapacity:"Вместимость комнаты",occupants:"Участники",emptyRooms:"Комнаты ещё не созданы.",emptyOccupants:"Участники не назначены.",roomCapacityWarning:"Слишком много участников: {used} при вместимости {capacity}.",roomDuplicateWarning:"{name} назначен более чем в одну комнату.",roomUnassignedWarning:"Не назначены в комнату: {names}"});
 
   I.he.rideRequests="נסיעות ללא שיבוץ";
   I.he.transport="אנשים ללא רכב";
@@ -46,7 +49,8 @@
     meals:[{id:101,day:"Friday",time:"19:00",mealType:"dinner",title:"ארוחת ערב שישי",dishes:"בשר על האש, סלט ותוספות",quantity:"",owner:"",notes:""}],
     tasks:[{id:21,title:"לבחור ולהכין משחק לערב שישי",owner:"",category:"פעילות",done:false,deadline:""}],
     bring:[{id:31,title:"רמקול נייד",owner:"אלכס",category:"ציוד",quantity:"1",done:false}],
-    cars:[{id:41,driver:"מיכאל",direction:"arrival",day:"Friday",time:"12:30",origin:"חולון",seats:3,passengers:["אני","אחות"],needRide:false}]
+    cars:[{id:41,driver:"מיכאל",direction:"arrival",day:"Friday",time:"12:30",origin:"חולון",seats:3,passengers:["אני","אחות"],needRide:false}],
+    rooms:[]
   };
   let lang = "he";
   let storageWasInvalid = false;
@@ -62,12 +66,13 @@
     d.event = Object.assign({}, defaults.event, d.event || {});
     d.participants = Array.isArray(d.participants) ? d.participants.filter(function (x) { return typeof x === "string" && x.trim(); }) : clone(defaults.participants);
     if (!d.participants.length && Number(d.participantCount) > 0) d.participants = clone(defaults.participants);
-    ["schedule","meals","tasks","bring","cars"].forEach(function (key) { if (!Array.isArray(d[key])) d[key] = []; });
+    ["schedule","meals","tasks","bring","cars","rooms"].forEach(function (key) { if (!Array.isArray(d[key])) d[key] = []; });
     d.schedule.forEach(function(x){ if (x.endTime === undefined) x.endTime = ""; });
     d.meals.forEach(function(x){ if (x.time === undefined) x.time = ""; });
     d.tasks.forEach(function(x){ if (x.deadline === undefined) x.deadline = ""; });
     d.bring.forEach(function(x){ if (x.quantity === undefined) x.quantity = ""; });
     d.cars.forEach(function(x){ if (!Array.isArray(x.passengers)) x.passengers = []; });
+    d.rooms.forEach(function(x){ if (!Array.isArray(x.occupants)) x.occupants = []; });
     return d;
   }
   function loadState() {
@@ -124,7 +129,7 @@
     const assignedTravelers=new Set();
     state.cars.filter(function(x){return !x.needRide;}).forEach(function(x){if(x.driver)assignedTravelers.add(x.driver);x.passengers.forEach(function(p){assignedTravelers.add(p);});});
     byId("rideRequests").textContent=state.participants.filter(function(p){return !assignedTravelers.has(p);}).length;
-    renderSchedule(); renderMeals(); renderTasks(); renderBring(); renderCars(); renderHome();
+    renderSchedule(); renderMeals(); renderTasks(); renderBring(); renderCars(); renderRooms(); renderHome();
     if(storageWasInvalid){showMessage(t("dataRecovered"));storageWasInvalid=false;}
   }
   function card(title,meta,owner,status){return '<div class="item"><div class="item-top"><div><h3>'+esc(title)+'</h3><div class="meta"><span>'+esc(meta)+'</span><span>'+esc(owner)+'</span></div></div><span class="badge '+(status==="warn"?"warn":"")+'">'+esc(status==="warn"?t("needAttention"):t(status))+'</span></div></div>';}
@@ -164,6 +169,13 @@
     byId("carsList").innerHTML=html;
   }
 
+  function renderRooms(){
+    if(!state.rooms.length){byId("roomsList").innerHTML=empty("emptyRooms");return;}
+    const counts={};state.rooms.forEach(function(r){r.occupants.forEach(function(p){counts[p]=(counts[p]||0)+1;});});
+    let html=state.rooms.map(function(x){const used=x.occupants.length,capacity=Number(x.capacity)||0,p=capacity?Math.min(100,used/capacity*100):used?100:0,w=[];if(used>capacity)w.push(t("roomCapacityWarning",{used:used,capacity:capacity}));x.occupants.forEach(function(name){if(counts[name]>1)w.push(t("roomDuplicateWarning",{name:name}));});return '<div class="card"><div class="item-top"><h3>🛏 '+esc(x.name)+'</h3><span class="badge '+(used>capacity?'warn':'')+'">'+used+'/'+capacity+'</span></div><div class="meta">'+esc(t("occupants"))+': '+esc(x.occupants.join(", ")||t("emptyOccupants"))+'</div><div class="seatbar"><span style="width:'+p+'%"></span></div>'+(w.length?'<div class="warning-list">'+w.map(function(z){return '<div>⚠ '+esc(z)+'</div>';}).join('')+'</div>':'')+editButtons("room",x)+'</div>';}).join("");
+    const missing=state.participants.filter(function(p){return !counts[p];});if(missing.length)html+='<div class="card warning-list"><div>⚠ '+esc(t("roomUnassignedWarning",{names:missing.join(", ")}))+'</div></div>';byId("roomsList").innerHTML=html;
+  }
+
   let formType="", editingId=null;
   function field(label,id,type,value,full){
     if(type==="textarea")return '<label class="'+(full?"full":"")+'">'+t(label)+'<textarea id="'+id+'" class="textarea">'+esc(value||"")+'</textarea></label>';
@@ -172,7 +184,7 @@
   function selectField(label,id,html,full){return '<label class="'+(full?"full":"")+'">'+t(label)+'<select id="'+id+'">'+html+'</select></label>';}
   function openForm(type,id){
     if(!mutationAllowed())return; formType=type;editingId=id==null?null:Number(id);
-    const map={schedule:"schedule",meal:"meals",task:"tasks",bring:"bring",car:"cars"}, arr=map[type]?state[map[type]]:[], x=editingId==null?{}:(arr.find(function(v){return Number(v.id)===editingId;})||{});
+    const map={schedule:"schedule",meal:"meals",task:"tasks",bring:"bring",car:"cars",room:"rooms"}, arr=map[type]?state[map[type]]:[], x=editingId==null?{}:(arr.find(function(v){return Number(v.id)===editingId;})||{});
     byId("modalTitle").textContent=t(editingId==null?"add":"edit"); let h='<div class="form-grid">';
     const days=[["Friday",t("Friday")],["Saturday",t("Saturday")],["Sunday",t("Sunday")]];
     if(type==="settings")h+=field("eventTitle","fTitle","text",state.event.title,true)+field("eventSubtitle","fSubtitle","text",state.event.subtitle,true)+field("startDate","fStartDate","date",state.event.startDate)+field("endDate","fEndDate","date",state.event.endDate)+field("location","fLocation","text",state.event.location,true)+field("generalNotes","fNotes","textarea",state.event.notes,true);
@@ -182,6 +194,7 @@
     if(type==="task")h+=field("activity","fTitle","text",x.title,true)+field("category","fCategory","text",x.category)+selectField("owner","fOwner",peopleOptions(x.owner,true))+field("deadline","fDeadline","date",x.deadline)+selectField("status","fDone",options([["false",t("open")],["true",t("completed")]],String(!!x.done)));
     if(type==="bring")h+=field("item","fTitle","text",x.title,true)+field("category","fCategory","text",x.category)+field("quantity","fQuantity","text",x.quantity)+selectField("owner","fOwner",peopleOptions(x.owner,true))+selectField("status","fDone",options([["false",t("notReady")],["true",t("ready")]],String(!!x.done)));
     if(type==="car"){h+=selectField("driver","fDriver",peopleOptions(x.driver,false))+selectField("type","fNeedRide",options([["false",t("responsible")],["true",t("needsRide")]],String(!!x.needRide)))+selectField("direction","fDirection",options([["arrival",t("arrival")],["departure",t("departure")]],x.direction||"arrival"))+selectField("day","fDay",options(days,x.day||"Friday"))+field("time","fTime","time",x.time)+field("origin","fOrigin","text",x.origin)+field("seats","fSeats","number",x.seats==null?3:x.seats);h+='<label class="full">'+t("passengers")+'<div class="checkboxes">'+state.participants.map(function(p){return '<label><input type="checkbox" name="fPassenger" value="'+attr(p)+'" '+((x.passengers||[]).indexOf(p)>=0?"checked":"")+'>'+esc(p)+'</label>';}).join("")+'</div></label>';}
+    if(type==="room"){h+=field("roomName","fTitle","text",x.name,true)+field("roomCapacity","fCapacity","number",x.capacity==null?2:x.capacity);h+='<label class="full">'+t("occupants")+'<div class="checkboxes">'+state.participants.map(function(p){return '<label><input type="checkbox" name="fOccupant" value="'+attr(p)+'" '+((x.occupants||[]).indexOf(p)>=0?"checked":"")+'>'+esc(p)+'</label>';}).join("")+'</div></label>';}
     if(type!=="participants")h+='<button type="button" class="btn primary full" id="saveForm">'+t("save")+'</button>';
     h+='</div>';byId("formContainer").innerHTML=h;byId("modal").classList.add("open");
   }
@@ -192,23 +205,24 @@
     if(formType!=="settings"&&!value("fTitle")&&formType!=="car"){showMessage(t("requiredTitle"));return;}
     mutate(function(){
       if(formType==="settings"){state.event={title:value("fTitle"),subtitle:value("fSubtitle"),startDate:value("fStartDate"),endDate:value("fEndDate"),location:value("fLocation"),notes:value("fNotes")};return;}
-      const map={schedule:"schedule",meal:"meals",task:"tasks",bring:"bring",car:"cars"},arr=state[map[formType]],old=editingId==null?null:arr.find(function(x){return Number(x.id)===editingId;}),id=old?old.id:Date.now();
+      const map={schedule:"schedule",meal:"meals",task:"tasks",bring:"bring",car:"cars",room:"rooms"},arr=state[map[formType]],old=editingId==null?null:arr.find(function(x){return Number(x.id)===editingId;}),id=old?old.id:Date.now();
       let obj;
       if(formType==="schedule")obj={id:id,day:value("fDay"),time:value("fTime"),endTime:value("fEndTime"),title:value("fTitle"),owner:value("fOwner"),status:value("fStatus"),notes:value("fNotes")};
       if(formType==="meal")obj={id:id,day:value("fDay"),time:value("fTime"),mealType:value("fMealType"),title:value("fTitle"),dishes:value("fDishes"),quantity:value("fQuantity"),owner:value("fOwner"),notes:value("fNotes")};
       if(formType==="task")obj={id:id,title:value("fTitle"),category:value("fCategory"),owner:value("fOwner"),deadline:value("fDeadline"),done:value("fDone")==="true"};
       if(formType==="bring")obj={id:id,title:value("fTitle"),category:value("fCategory"),quantity:value("fQuantity"),owner:value("fOwner"),done:value("fDone")==="true"};
       if(formType==="car")obj={id:id,driver:value("fDriver"),needRide:value("fNeedRide")==="true",direction:value("fDirection"),day:value("fDay"),time:value("fTime"),origin:value("fOrigin"),seats:Number(value("fSeats")||0),passengers:Array.from(document.querySelectorAll('[name="fPassenger"]:checked')).map(function(el){return el.value;})};
+      if(formType==="room")obj={id:id,name:value("fTitle"),capacity:Math.max(0,Number(value("fCapacity")||0)),occupants:Array.from(document.querySelectorAll('[name="fOccupant"]:checked')).map(function(el){return el.value;})};
       if(old)arr[arr.indexOf(old)]=obj;else arr.push(obj);
     });byId("modal").classList.remove("open");
   }
   function removeParticipant(index){
     const name=state.participants[index];if(!name||!confirm(t("removeParticipantConfirm",{name:name})))return;
-    mutate(function(){state.participants.splice(index,1);if(state.activeCoordinator===name)state.activeCoordinator=state.participants[0]||"";["schedule","meals","tasks","bring"].forEach(function(k){state[k].forEach(function(x){if(x.owner===name)x.owner="";});});state.cars.forEach(function(c){if(c.driver===name)c.driver="";c.passengers=c.passengers.filter(function(p){return p!==name;});});});openForm("participants");
+    mutate(function(){state.participants.splice(index,1);if(state.activeCoordinator===name)state.activeCoordinator=state.participants[0]||"";["schedule","meals","tasks","bring"].forEach(function(k){state[k].forEach(function(x){if(x.owner===name)x.owner="";});});state.cars.forEach(function(c){if(c.driver===name)c.driver="";c.passengers=c.passengers.filter(function(p){return p!==name;});});state.rooms.forEach(function(r){r.occupants=r.occupants.filter(function(p){return p!==name;});});});openForm("participants");
   }
   function deleteItem(type,id){
-    const map={schedule:"schedule",meal:"meals",task:"tasks",bring:"bring",car:"cars"},arr=state[map[type]],x=arr.find(function(v){return Number(v.id)===Number(id);});if(!x)return;
-    const name=x.title||x.driver||t(type);if(!confirm(t("deleteConfirm",{name:name})))return;mutate(function(){state[map[type]]=arr.filter(function(v){return Number(v.id)!==Number(id);});});
+    const map={schedule:"schedule",meal:"meals",task:"tasks",bring:"bring",car:"cars",room:"rooms"},arr=state[map[type]],x=arr.find(function(v){return Number(v.id)===Number(id);});if(!x)return;
+    const name=x.title||x.driver||x.name||t(type);if(!confirm(t("deleteConfirm",{name:name})))return;mutate(function(){state[map[type]]=arr.filter(function(v){return Number(v.id)!==Number(id);});});
   }
   function download(name,text,mime){const blob=new Blob([text],{type:mime}),url=URL.createObjectURL(blob),a=document.createElement("a");a.href=url;a.download=name;document.body.appendChild(a);a.click();a.remove();setTimeout(function(){URL.revokeObjectURL(url);},1000);}
   function exportWebsite(){if(!mutationAllowed())return;download("published-data.js","/* Generated by the local organizer. Do not publish sensitive personal information. */\nwindow.PUBLISHED_EVENT_DATA = "+JSON.stringify(state,null,2)+";\n","text/javascript;charset=utf-8");showMessage(t("publishInstructions"));}
@@ -221,6 +235,7 @@
     const tasks=state.tasks.filter(function(x){return !x.done;});if(tasks.length){lines.push("\n"+t("openTasks")+":");tasks.forEach(function(x){lines.push("• "+x.title+" — "+ownerText(x.owner));});}
     const items=state.bring.filter(function(x){return !x.owner;});if(items.length){lines.push("\n"+t("unassignedItems")+":");items.forEach(function(x){lines.push("• "+x.title);});}
     if(state.cars.length){lines.push("\n"+t("cars")+":");state.cars.forEach(function(x){lines.push("• "+t(x.direction)+" — "+x.driver+", "+x.passengers.join(", ")+" ("+Math.max(0,x.seats-x.passengers.length)+" "+t("seats")+")");});}
+    if(state.rooms.length){lines.push("\n"+t("rooms")+":");state.rooms.forEach(function(x){lines.push("• "+x.name+" — "+x.occupants.join(", ")+" ("+x.occupants.length+"/"+x.capacity+")");});}
     return lines.join("\n");
   }
   function copySummary(publicArea){const text=summary(),done=function(){showMessage(t("copied"),publicArea);};if(navigator.clipboard&&location.protocol!=="file:")navigator.clipboard.writeText(text).then(done).catch(function(){fallbackCopy(text);done();});else{fallbackCopy(text);done();}}
@@ -238,7 +253,7 @@
     const rem=e.target.closest("[data-person-remove]");if(rem)removeParticipant(Number(rem.dataset.index));
     const move=e.target.closest("[data-person-move]");if(move){const i=Number(move.dataset.index),j=i+Number(move.dataset.personMove);if(j>=0&&j<state.participants.length)mutate(function(){const p=state.participants.splice(i,1)[0];state.participants.splice(j,0,p);});openForm("participants");}
   });
-  byId("formContainer").addEventListener("change",function(e){if(e.target.classList.contains("participant-name")){const i=Number(e.target.dataset.index),old=state.participants[i],n=e.target.value.trim();if(n&&n!==old)mutate(function(){state.participants[i]=n;if(state.activeCoordinator===old)state.activeCoordinator=n;["schedule","meals","tasks","bring"].forEach(function(k){state[k].forEach(function(x){if(x.owner===old)x.owner=n;});});state.cars.forEach(function(c){if(c.driver===old)c.driver=n;c.passengers=c.passengers.map(function(p){return p===old?n:p;});});});}});
+  byId("formContainer").addEventListener("change",function(e){if(e.target.classList.contains("participant-name")){const i=Number(e.target.dataset.index),old=state.participants[i],n=e.target.value.trim();if(n&&n!==old)mutate(function(){state.participants[i]=n;if(state.activeCoordinator===old)state.activeCoordinator=n;["schedule","meals","tasks","bring"].forEach(function(k){state[k].forEach(function(x){if(x.owner===old)x.owner=n;});});state.cars.forEach(function(c){if(c.driver===old)c.driver=n;c.passengers=c.passengers.map(function(p){return p===old?n:p;});});state.rooms.forEach(function(r){r.occupants=r.occupants.map(function(p){return p===old?n:p;});});});}});
   byId("closeModal").addEventListener("click",function(){byId("modal").classList.remove("open");});byId("modal").addEventListener("click",function(e){if(e.target===this)this.classList.remove("open");});
   byId("langSelect").addEventListener("change",function(e){lang=e.target.value;setStatic();});["dayFilter","mealDayFilter","taskFilter","bringFilter"].forEach(function(id){byId(id).addEventListener("change",render);});
   byId("publishExportBtn").addEventListener("click",exportWebsite);byId("backupExportBtn").addEventListener("click",exportBackup);byId("backupImportBtn").addEventListener("click",function(){byId("backupFile").click();});byId("backupFile").addEventListener("change",function(){importBackup(this.files[0]);});
