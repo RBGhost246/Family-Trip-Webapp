@@ -14,7 +14,6 @@ window.PUBLISHED_EVENT_DATA = {
     "בוריס",
     "אלין",
     "אדי",
-    "אינה",
     "יוני",
     "דני",
     "אביב",
@@ -22,8 +21,6 @@ window.PUBLISHED_EVENT_DATA = {
     "זיו",
     "רוני",
     "מישה",
-    "סשה",
-    "תומה",
     "ראיה",
     "ויקה",
     "מריק",
@@ -33,36 +30,6 @@ window.PUBLISHED_EVENT_DATA = {
   "activeCoordinator": "רוני",
   "handoverAt": "2026-07-22T19:35:30.079Z",
   "schedule": [
-    {
-      "id": 1784747790023,
-      "day": "Friday",
-      "time": "08:30",
-      "endTime": "10:30",
-      "title": "יציאה - נסיעה לכפר בלום",
-      "owner": "",
-      "status": "proposed",
-      "notes": ""
-    },
-    {
-      "id": 1784747812105,
-      "day": "Friday",
-      "time": "10:30",
-      "endTime": "11:00",
-      "title": "הגעה לכפר בלום",
-      "owner": "",
-      "status": "proposed",
-      "notes": ""
-    },
-    {
-      "id": 1784747828385,
-      "day": "Friday",
-      "time": "11:00",
-      "endTime": "13:00",
-      "title": "מסלול קייקים",
-      "owner": "",
-      "status": "proposed",
-      "notes": ""
-    },
     {
       "id": 1784747864834,
       "day": "Friday",
@@ -206,11 +173,21 @@ window.PUBLISHED_EVENT_DATA = {
     {
       "id": 1784748308452,
       "day": "Sunday",
-      "time": "",
+      "time": "12:30",
       "endTime": "",
-      "title": "אטרקציה",
+      "title": "ארוחת צהריים",
       "owner": "",
       "status": "proposed",
+      "notes": ""
+    },
+    {
+      "id": 1784883760825,
+      "day": "Sunday",
+      "time": "14:00",
+      "endTime": "",
+      "title": "נסיעה הביתה",
+      "owner": "",
+      "status": "confirmed",
       "notes": ""
     }
   ],
@@ -223,7 +200,7 @@ window.PUBLISHED_EVENT_DATA = {
       "title": "ארוחת ערב שישי",
       "dishes": "בשר על האש / דג מרוקאי / אופציה טבעונית / סלטים / תוספות - תפו\"א וירקות בגריל",
       "quantity": "",
-      "owner": "",
+      "owner": "בוריס",
       "notes": "ציוד: על האש (לא לשכוח פחם), סיר טרמוס"
     },
     {
@@ -232,20 +209,20 @@ window.PUBLISHED_EVENT_DATA = {
       "time": "",
       "mealType": "breakfast",
       "title": "ארוחת בוקר שבת",
-      "dishes": "ג'חנון / ביצים קשות / רסק עגבניות / לחמים",
+      "dishes": "ג'חנון / ביצים קשות / רסק עגבניות / לחמים\nלחם / טורטיות / גבינות / פסטרמות / סלט ירקות / גבינות טבעוניות",
       "quantity": "",
-      "owner": "",
+      "owner": "אולגה",
       "notes": "מיץ"
     },
     {
       "id": 1784748691566,
       "day": "Saturday",
       "time": "",
-      "mealType": "snacks",
-      "title": "נשנושים צהריים שבת",
-      "dishes": "לחם / טורטיות / גבינות / פסטרמות / סלט ירקות / גבינות טבעוניות",
+      "mealType": "lunch",
+      "title": "ארוחת צהריים שבת",
+      "dishes": "אורז, בשר, דג, סלטים",
       "quantity": "",
-      "owner": "",
+      "owner": "רוני",
       "notes": ""
     },
     {
@@ -256,7 +233,7 @@ window.PUBLISHED_EVENT_DATA = {
       "title": "ארוחת ערב שבת",
       "dishes": "",
       "quantity": "",
-      "owner": "",
+      "owner": "ויקה",
       "notes": ""
     },
     {
@@ -267,11 +244,44 @@ window.PUBLISHED_EVENT_DATA = {
       "title": "ארוחת בוקר ראשון",
       "dishes": "",
       "quantity": "",
-      "owner": "",
+      "owner": "אלין",
       "notes": ""
     }
   ],
-  "tasks": [],
+  "tasks": [
+    {
+      "id": 1784883183132,
+      "title": "רשימת ציוד",
+      "category": "",
+      "owner": "",
+      "deadline": "",
+      "done": false
+    },
+    {
+      "id": 1784883204409,
+      "title": "שיבוץ תוכן",
+      "category": "",
+      "owner": "",
+      "deadline": "",
+      "done": false
+    },
+    {
+      "id": 1784883294324,
+      "title": "רשימת מצרכים",
+      "category": "",
+      "owner": "",
+      "deadline": "",
+      "done": false
+    },
+    {
+      "id": 1784883298919,
+      "title": "קניות",
+      "category": "",
+      "owner": "",
+      "deadline": "",
+      "done": false
+    }
+  ],
   "bring": [
     {
       "id": 1784748769662,
@@ -283,7 +293,7 @@ window.PUBLISHED_EVENT_DATA = {
     },
     {
       "id": 1784748784580,
-      "title": "פחמים, גריל",
+      "title": "פחמים לגריל",
       "category": "על האש",
       "quantity": "",
       "owner": "",
@@ -296,6 +306,30 @@ window.PUBLISHED_EVENT_DATA = {
       "quantity": "1",
       "owner": "מישה",
       "done": false
+    },
+    {
+      "id": 1784883313592,
+      "title": "רמקול",
+      "category": "",
+      "quantity": "",
+      "owner": "",
+      "done": false
+    },
+    {
+      "id": 1784883324667,
+      "title": "אבובים לבריכה",
+      "category": "",
+      "quantity": "",
+      "owner": "אדי",
+      "done": true
+    },
+    {
+      "id": 1784883343533,
+      "title": "משחקים, אליאס פלייסטשן",
+      "category": "",
+      "quantity": "",
+      "owner": "אלין",
+      "done": true
     }
   ],
   "cars": [
@@ -311,7 +345,8 @@ window.PUBLISHED_EVENT_DATA = {
       "passengers": [
         "אולגה",
         "יוני",
-        "דני"
+        "דני",
+        "ראיה"
       ]
     },
     {
@@ -322,9 +357,51 @@ window.PUBLISHED_EVENT_DATA = {
       "day": "Friday",
       "time": "",
       "origin": "אזור",
-      "seats": 3,
+      "seats": 2,
       "passengers": [
         "רוני"
+      ]
+    },
+    {
+      "id": 1784883400497,
+      "driver": "אדי",
+      "needRide": false,
+      "direction": "arrival",
+      "day": "Friday",
+      "time": "",
+      "origin": "פתח תקווה",
+      "seats": 1,
+      "passengers": [
+        "אלין"
+      ]
+    },
+    {
+      "id": 1784883480956,
+      "driver": "מריק",
+      "needRide": false,
+      "direction": "arrival",
+      "day": "Friday",
+      "time": "",
+      "origin": "פתח תקווה",
+      "seats": 3,
+      "passengers": [
+        "ויקה",
+        "וובה",
+        "רחלי"
+      ]
+    },
+    {
+      "id": 1784883503655,
+      "driver": "יפעת",
+      "needRide": false,
+      "direction": "arrival",
+      "day": "Friday",
+      "time": "",
+      "origin": "פתח תקווה",
+      "seats": 3,
+      "passengers": [
+        "אביב",
+        "זיו"
       ]
     }
   ]
